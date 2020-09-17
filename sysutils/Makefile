@@ -925,7 +925,6 @@
     SUBDIR += plasma5-polkit-kde-agent-1
     SUBDIR += plasma5-powerdevil
     SUBDIR += plasma5-systemsettings
-    SUBDIR += plasma5-user-manager
     SUBDIR += plconfig
     SUBDIR += pmt
     SUBDIR += pnscan

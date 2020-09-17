@@ -54,8 +54,8 @@ _KDE_RELNAME=		KDE${_KDE_VERSION}
 
 # === VERSIONS OF THE DIFFERENT COMPONENTS =====================================
 # Current KDE desktop.
-KDE_PLASMA_VERSION?=		5.19.5
-KDE_PLASMA_BRANCH?=		stable
+KDE_PLASMA_VERSION?=		5.19.90
+KDE_PLASMA_BRANCH?=		unstable
 
 # Current KDE frameworks.
 KDE_FRAMEWORKS_VERSION?=	5.74.0
@@ -223,8 +223,7 @@ _USE_PLASMA_ALL=	activitymanagerd breeze breeze-gtk \
 			libksysguard milou oxygen plasma-browser-integration \
 			plasma-desktop plasma-integration plasma-pa \
 			plasma-sdk plasma-workspace plasma-workspace-wallpapers \
-			polkit-kde-agent-1 powerdevil systemsettings \
-			user-manager
+			polkit-kde-agent-1 powerdevil systemsettings
 
 # List of components of the KDE PIM distribution (part of applications).
 _USE_KDEPIM5_ALL=	akonadicontacts akonadiimportwizard akonadimime akonadinotes \
@@ -596,9 +595,6 @@ kde-powerdevil_LIB=		libpowerdevilcore.so
 
 kde-systemsettings_PORT=	sysutils/plasma5-systemsettings
 kde-systemsettings_PATH=	${KDE_PREFIX}/bin/systemsettings5
-
-kde-user-manager_PORT=	sysutils/plasma5-user-manager
-kde-user-manager_PATH=	${QT_PLUGINDIR}/user_manager.so
 # ====================== end of plasma components ==============================
 
 # ====================== pim5 components =======================================

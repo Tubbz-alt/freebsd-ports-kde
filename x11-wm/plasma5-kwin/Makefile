@@ -8,7 +8,6 @@ MAINTAINER=	kde@FreeBSD.org
 COMMENT=	Plasma5 window manager
 
 LICENSE=	GPLv2
-LICENSE_FILE=	${WRKSRC}/COPYING
 
 LIB_DEPENDS=	libXcursor.so:x11/libXcursor \
 		libdrm.so:graphics/libdrm \

@@ -3,12 +3,12 @@ bin/ksysguard
 bin/ksysguardd
 bin/ksystemstats
 etc/ksysguarddrc
-%%PCAP%%lib/libexec/ksysguard/ksgrd_network_helper
 lib/libkdeinit5_ksysguard.so
 lib/libksgrdbackend.so
 %%QT_PLUGINDIR%%/ksysguard/ksysguard_ksgrd.so
 %%QT_PLUGINDIR%%/ksysguard/ksysguard_plugin_nvidiaglobal.so
-%%PCAP%%%%QT_PLUGINDIR%%/ksysguard/process/ksysguard_plugin_network.so
+%%PCAP%%%%QT_PLUGINDIR%%/ksysguard/ksysguard_globalplugin_network.so
+%%QT_PLUGINDIR%%/ksysguard/ksysguard_plugin_osinfo.so
 %%QT_PLUGINDIR%%/ksysguard/process/ksysguard_plugin_nvidia.so
 share/applications/org.kde.ksysguard.desktop
 share/dbus-1/services/org.kde.ksystemstats.service
@@ -20,6 +20,8 @@ share/doc/HTML/en/ksysguard/index.cache.bz2
 share/doc/HTML/en/ksysguard/index.docbook
 share/doc/HTML/et/ksysguard/index.cache.bz2
 share/doc/HTML/et/ksysguard/index.docbook
+share/doc/HTML/fr/ksysguard/index.cache.bz2
+share/doc/HTML/fr/ksysguard/index.docbook
 share/doc/HTML/id/ksysguard/index.cache.bz2
 share/doc/HTML/id/ksysguard/index.docbook
 share/doc/HTML/it/ksysguard/index.cache.bz2
@@ -73,6 +75,7 @@ share/locale/da/LC_MESSAGES/ksysguard.mo
 share/locale/da/LC_MESSAGES/ksysguard_plugins_global.mo
 share/locale/da/LC_MESSAGES/ksysguard_plugins_process.mo
 share/locale/de/LC_MESSAGES/ksysguard.mo
+share/locale/de/LC_MESSAGES/ksysguard_plugins_global.mo
 share/locale/el/LC_MESSAGES/ksysguard.mo
 share/locale/en_GB/LC_MESSAGES/ksysguard.mo
 share/locale/en_GB/LC_MESSAGES/ksysguard_plugins_global.mo
@@ -147,6 +150,8 @@ share/locale/sk/LC_MESSAGES/ksysguard.mo
 share/locale/sk/LC_MESSAGES/ksysguard_plugins_global.mo
 share/locale/sk/LC_MESSAGES/ksysguard_plugins_process.mo
 share/locale/sl/LC_MESSAGES/ksysguard.mo
+share/locale/sl/LC_MESSAGES/ksysguard_plugins_global.mo
+share/locale/sl/LC_MESSAGES/ksysguard_plugins_process.mo
 share/locale/sq/LC_MESSAGES/ksysguard.mo
 share/locale/sr/LC_MESSAGES/ksysguard.mo
 share/locale/sr@ijekavian/LC_MESSAGES/ksysguard.mo
