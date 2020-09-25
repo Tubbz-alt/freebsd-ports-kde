@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	thunderbird
-DISTVERSION=	78.2.2
+DISTVERSION=	78.3.1
 CATEGORIES=	mail news net-im
 MASTER_SITES=	MOZILLA/${PORTNAME}/releases/${DISTVERSION}/source \
 		MOZILLA/${PORTNAME}/candidates/${DISTVERSION}-candidates/build1/source
@@ -10,8 +10,6 @@ DISTFILES=	${DISTNAME}.source${EXTRACT_SUFX}
 
 MAINTAINER=	gecko@FreeBSD.org
 COMMENT=	Mozilla Thunderbird is standalone mail and news that stands above
-
-BROKEN_powerpc64=	fails to build: gmake[4]: *** [backend.mk:47: .deps/node.stub.stub] Error 246
 
 BUILD_DEPENDS=	nspr>=4.26:devel/nspr \
 		nss>=3.56:security/nss \
@@ -21,7 +19,7 @@ BUILD_DEPENDS=	nspr>=4.26:devel/nspr \
 		graphite2>=1.3.14:graphics/graphite2 \
 		png>=1.6.35:graphics/png \
 		libvpx>=1.8.2:multimedia/libvpx \
-		py${PYTHON3_DEFAULT:S/.//}-sqlite3>0:databases/py-sqlite3@py${PYTHON3_DEFAULT:S/.//} \
+		${PYTHON_PKGNAMEPREFIX}sqlite3>0:databases/py-sqlite3@${PY_FLAVOR} \
 		v4l_compat>0:multimedia/v4l_compat \
 		autoconf-2.13:devel/autoconf213 \
 		nasm:devel/nasm \

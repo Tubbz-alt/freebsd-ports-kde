@@ -10,7 +10,6 @@
     SUBDIR += LPRng
     SUBDIR += LPRngTool
     SUBDIR += UEFITool
-    SUBDIR += abck
     SUBDIR += abduco
     SUBDIR += abgx360
     SUBDIR += accounts-qml-module
@@ -186,7 +185,6 @@
     SUBDIR += cmospwd
     SUBDIR += colorize
     SUBDIR += conan
-    SUBDIR += condor
     SUBDIR += confctl
     SUBDIR += conky
     SUBDIR += conky-awesome
@@ -320,7 +318,6 @@
     SUBDIR += f3
     SUBDIR += facter
     SUBDIR += fanout
-    SUBDIR += farbot
     SUBDIR += fatback
     SUBDIR += fcode-utils
     SUBDIR += fconfig
@@ -407,7 +404,6 @@
     SUBDIR += fusefs-sshfs
     SUBDIR += fusefs-unionfs
     SUBDIR += fusefs-webdavfs
-    SUBDIR += fusefs-wikipediafs
     SUBDIR += fusefs-zip
     SUBDIR += fvcool
     SUBDIR += fwup
@@ -470,9 +466,9 @@
     SUBDIR += hcloud
     SUBDIR += hdrecover
     SUBDIR += healthd
-    SUBDIR += heartbeat
     SUBDIR += heirloom
     SUBDIR += helm
+    SUBDIR += hexpeek
     SUBDIR += hextools
     SUBDIR += hexyl
     SUBDIR += hfsexplorer
@@ -520,7 +516,6 @@
     SUBDIR += ipsc
     SUBDIR += isc-cron
     SUBDIR += isomaster
-    SUBDIR += isomd5sum
     SUBDIR += istatserver
     SUBDIR += istio
     SUBDIR += jadm
@@ -740,6 +735,7 @@
     SUBDIR += netevent
     SUBDIR += nfcutils
     SUBDIR += nitrogen
+    SUBDIR += nix
     SUBDIR += no-login
     SUBDIR += node_exporter
     SUBDIR += nomad
@@ -1020,7 +1016,6 @@
     SUBDIR += py-scandir
     SUBDIR += py-scarab
     SUBDIR += py-shutilwhich
-    SUBDIR += py-stdiff
     SUBDIR += py-supervisor
     SUBDIR += py-tarsnapper
     SUBDIR += py-tmuxp
@@ -1115,6 +1110,7 @@
     SUBDIR += rubygem-god
     SUBDIR += rubygem-guard
     SUBDIR += rubygem-guard-compat
+    SUBDIR += rubygem-guard-cucumber
     SUBDIR += rubygem-guard-livereload
     SUBDIR += rubygem-guard-minitest
     SUBDIR += rubygem-guard-rspec
@@ -1299,6 +1295,7 @@
     SUBDIR += terraform
     SUBDIR += terraform-provider-gridscale
     SUBDIR += terraform-provider-vultr
+    SUBDIR += terragrunt
     SUBDIR += testdisk
     SUBDIR += thefish
     SUBDIR += timelimit
@@ -1321,7 +1318,6 @@
     SUBDIR += tracker
     SUBDIR += tracker-miners
     SUBDIR += tree
-    SUBDIR += tren
     SUBDIR += triton
     SUBDIR += trueos-libqt5
     SUBDIR += ts
