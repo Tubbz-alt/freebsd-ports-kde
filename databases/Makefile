@@ -186,6 +186,7 @@
     SUBDIR += mdbtools
     SUBDIR += mdcached
     SUBDIR += memcached
+    SUBDIR += mongodb-tools
     SUBDIR += mongodb36
     SUBDIR += mongodb36-tools
     SUBDIR += mongodb40
@@ -802,6 +803,7 @@
     SUBDIR += py-redis2
     SUBDIR += py-sispy
     SUBDIR += py-south
+    SUBDIR += py-sqlalchemy-json
     SUBDIR += py-sqlalchemy-migrate
     SUBDIR += py-sqlalchemy-utils
     SUBDIR += py-sqlalchemy10

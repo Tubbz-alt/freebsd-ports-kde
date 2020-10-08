@@ -106,6 +106,7 @@
     SUBDIR += cuttlefish
     SUBDIR += darktable
     SUBDIR += dataplot
+    SUBDIR += dbow2
     SUBDIR += dc20pack
     SUBDIR += dcmtk
     SUBDIR += dcp2icc
@@ -163,7 +164,6 @@
     SUBDIR += epstool
     SUBDIR += eterm-bg
     SUBDIR += evince
-    SUBDIR += evince-lite
     SUBDIR += evolvotron
     SUBDIR += exif
     SUBDIR += exifprobe
@@ -809,7 +809,6 @@
     SUBDIR += py-gdal
     SUBDIR += py-geomdl
     SUBDIR += py-geopandas
-    SUBDIR += py-gimp
     SUBDIR += py-gizeh
     SUBDIR += py-glfw
     SUBDIR += py-glooey

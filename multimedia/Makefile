@@ -331,7 +331,6 @@
     SUBDIR += py-cec
     SUBDIR += py-enzyme
     SUBDIR += py-ffmpeg-python
-    SUBDIR += py-gstreamer
     SUBDIR += py-gstreamer1
     SUBDIR += py-guessit
     SUBDIR += py-kaa-base
@@ -442,6 +441,7 @@
     SUBDIR += vlc
     SUBDIR += vmaf
     SUBDIR += vtkmpeg2encode
+    SUBDIR += vvdec
     SUBDIR += w_scan2
     SUBDIR += webcamd
     SUBDIR += webcamoid

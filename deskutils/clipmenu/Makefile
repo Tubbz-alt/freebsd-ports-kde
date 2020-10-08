@@ -3,6 +3,7 @@
 
 PORTNAME=	clipmenu
 DISTVERSION=	6.1.0
+PORTREVISION=	1
 CATEGORIES=	deskutils
 
 MAINTAINER=	nivit@FreeBSD.org
@@ -13,9 +14,13 @@ LICENSE_FILE=	${WRKSRC}/LICENSE
 
 RUN_DEPENDS=	bash:shells/bash \
 		clipnotify:deskutils/clipnotify \
+		flock:sysutils/flock \
 		xsel:x11/xsel-conrad
 
 USES=		xorg
+
+NO_ARCH=	yes
+NO_BUILD=	yes
 
 PLIST_FILES=	bin/clipctl bin/clipdel bin/clipfsck bin/clipmenu bin/clipmenud
 
@@ -38,9 +43,6 @@ GH_ACCOUNT=	cdown
 
 post-extract:
 	@${REINPLACE_CMD} -e '3s,dmenu,${SELECTED_OPTIONS:tl},1' ${WRKSRC}/clipmenu
-
-do-build:
-	${DO_NADA}
 
 do-install:
 	@cd ${WRKSRC} && ${INSTALL_SCRIPT} clipctl clipdel clipfsck clipmenu clipmenud \

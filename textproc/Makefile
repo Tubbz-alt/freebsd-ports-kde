@@ -18,6 +18,7 @@
     SUBDIR += R-cran-markdown
     SUBDIR += R-cran-openxlsx
     SUBDIR += R-cran-pystr
+    SUBDIR += R-cran-rbibutils
     SUBDIR += R-cran-readr
     SUBDIR += R-cran-readxl
     SUBDIR += R-cran-rematch
@@ -202,6 +203,7 @@
     SUBDIR += fldiff
     SUBDIR += flex
     SUBDIR += flip
+    SUBDIR += fmtlatex
     SUBDIR += fo-aspell
     SUBDIR += foiltex
     SUBDIR += fop
@@ -422,6 +424,7 @@
     SUBDIR += markdown-mode.el
     SUBDIR += markdownfmt
     SUBDIR += mathml-xsd
+    SUBDIR += mdbook
     SUBDIR += mdocml
     SUBDIR += meld
     SUBDIR += metauml
@@ -1357,6 +1360,7 @@
     SUBDIR += py-regex
     SUBDIR += py-reno
     SUBDIR += py-reverend
+    SUBDIR += py-rich
     SUBDIR += py-rnc2rng
     SUBDIR += py-rss2gen
     SUBDIR += py-rst2html5
@@ -1772,6 +1776,7 @@
     SUBDIR += tokyodystopia
     SUBDIR += tr-aspell
     SUBDIR += trang
+    SUBDIR += translate-toolkit
     SUBDIR += trdsql
     SUBDIR += ts-hunspell
     SUBDIR += tth
@@ -1812,6 +1817,7 @@
     SUBDIR += website
     SUBDIR += weka
     SUBDIR += wiggle
+    SUBDIR += wikiman
     SUBDIR += word2x
     SUBDIR += wordnet
     SUBDIR += words

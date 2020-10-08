@@ -165,6 +165,7 @@
     SUBDIR += cfengine315
     SUBDIR += checkrestart
     SUBDIR += chgrep
+    SUBDIR += choria
     SUBDIR += chyves
     SUBDIR += cinnamon-control-center
     SUBDIR += cinnamon-settings-daemon
@@ -253,6 +254,7 @@
     SUBDIR += disktype
     SUBDIR += dmg2img
     SUBDIR += dmidecode
+    SUBDIR += dnf
     SUBDIR += docker
     SUBDIR += docker-compose
     SUBDIR += docker-credential-pass
@@ -275,6 +277,7 @@
     SUBDIR += dtrace-toolkit
     SUBDIR += du2ps
     SUBDIR += dua-cli
+    SUBDIR += duf
     SUBDIR += duff
     SUBDIR += dunst
     SUBDIR += dupd
@@ -573,6 +576,7 @@
     SUBDIR += libcdio-paranoia
     SUBDIR += libchk
     SUBDIR += libcpuid
+    SUBDIR += libdnf
     SUBDIR += libfvde
     SUBDIR += libgksu
     SUBDIR += libieee1284
@@ -774,6 +778,7 @@
     SUBDIR += osinfo-db-tools
     SUBDIR += osquery
     SUBDIR += p5-App-RunCron
+    SUBDIR += p5-App-ZFSCurses
     SUBDIR += p5-BSD-Jail-Object
     SUBDIR += p5-BSD-Process
     SUBDIR += p5-BSD-Sysctl
@@ -1003,6 +1008,7 @@
     SUBDIR += py-ptyprocess
     SUBDIR += py-py-cpuinfo
     SUBDIR += py-python-consul
+    SUBDIR += py-python-consul2
     SUBDIR += py-python-crontab
     SUBDIR += py-python-nomad
     SUBDIR += py-pytsk
@@ -1011,6 +1017,7 @@
     SUBDIR += py-queuelib
     SUBDIR += py-ranger
     SUBDIR += py-rdiff-backup
+    SUBDIR += py-resolve-march-native
     SUBDIR += py-salt
     SUBDIR += py-salt-2019
     SUBDIR += py-scandir
@@ -1279,7 +1286,6 @@
     SUBDIR += syslog-ng329
     SUBDIR += syslogger
     SUBDIR += sysrc
-    SUBDIR += system-tools-backends
     SUBDIR += sysvbanner
     SUBDIR += tai64nfrac
     SUBDIR += tarsnap
@@ -1293,6 +1299,7 @@
     SUBDIR += tealdeer
     SUBDIR += tenshi
     SUBDIR += terraform
+    SUBDIR += terraform-docs
     SUBDIR += terraform-provider-gridscale
     SUBDIR += terraform-provider-vultr
     SUBDIR += terragrunt
