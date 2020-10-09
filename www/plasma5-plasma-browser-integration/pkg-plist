@@ -31,6 +31,10 @@ share/locale/de/LC_MESSAGES/plasma-browser-extension.mo
 share/locale/de/LC_MESSAGES/plasma-browser-integration-host.mo
 share/locale/de/LC_MESSAGES/plasma-browser-integration-reminder.mo
 share/locale/de/LC_MESSAGES/plasma_runner_browsertabs.mo
+share/locale/el/LC_MESSAGES/plasma-browser-extension.mo
+share/locale/el/LC_MESSAGES/plasma-browser-integration-host.mo
+share/locale/el/LC_MESSAGES/plasma-browser-integration-reminder.mo
+share/locale/el/LC_MESSAGES/plasma_runner_browsertabs.mo
 share/locale/en_GB/LC_MESSAGES/plasma-browser-extension.mo
 share/locale/en_GB/LC_MESSAGES/plasma-browser-integration-host.mo
 share/locale/en_GB/LC_MESSAGES/plasma-browser-integration-reminder.mo
@@ -109,6 +113,9 @@ share/locale/pt_BR/LC_MESSAGES/plasma-browser-integration-host.mo
 share/locale/pt_BR/LC_MESSAGES/plasma-browser-integration-reminder.mo
 share/locale/pt_BR/LC_MESSAGES/plasma_runner_browsertabs.mo
 share/locale/ro/LC_MESSAGES/plasma-browser-extension.mo
+share/locale/ro/LC_MESSAGES/plasma-browser-integration-host.mo
+share/locale/ro/LC_MESSAGES/plasma-browser-integration-reminder.mo
+share/locale/ro/LC_MESSAGES/plasma_runner_browsertabs.mo
 share/locale/ru/LC_MESSAGES/plasma-browser-extension.mo
 share/locale/ru/LC_MESSAGES/plasma-browser-integration-host.mo
 share/locale/ru/LC_MESSAGES/plasma-browser-integration-reminder.mo
@@ -125,10 +132,6 @@ share/locale/sr/LC_MESSAGES/plasma_runner_browsertabs.mo
 share/locale/sr@ijekavian/LC_MESSAGES/plasma_runner_browsertabs.mo
 share/locale/sr@ijekavianlatin/LC_MESSAGES/plasma_runner_browsertabs.mo
 share/locale/sr@latin/LC_MESSAGES/plasma_runner_browsertabs.mo
-share/locale/sv/LC_MESSAGES/plasma-browser-extension.mo
-share/locale/sv/LC_MESSAGES/plasma-browser-integration-host.mo
-share/locale/sv/LC_MESSAGES/plasma-browser-integration-reminder.mo
-share/locale/sv/LC_MESSAGES/plasma_runner_browsertabs.mo
 share/locale/tg/LC_MESSAGES/plasma-browser-integration-reminder.mo
 share/locale/tg/LC_MESSAGES/plasma_runner_browsertabs.mo
 share/locale/tr/LC_MESSAGES/plasma-browser-extension.mo

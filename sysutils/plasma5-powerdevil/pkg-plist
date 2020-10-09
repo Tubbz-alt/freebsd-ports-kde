@@ -58,8 +58,6 @@ share/doc/HTML/ru/kcontrol/powerdevil/advanced.png
 share/doc/HTML/ru/kcontrol/powerdevil/energy.png
 share/doc/HTML/ru/kcontrol/powerdevil/index.cache.bz2
 share/doc/HTML/ru/kcontrol/powerdevil/index.docbook
-share/doc/HTML/sv/kcontrol/powerdevil/index.cache.bz2
-share/doc/HTML/sv/kcontrol/powerdevil/index.docbook
 share/doc/HTML/uk/kcontrol/powerdevil/activity.png
 share/doc/HTML/uk/kcontrol/powerdevil/advanced.png
 share/doc/HTML/uk/kcontrol/powerdevil/energy.png
@@ -325,11 +323,6 @@ share/locale/sr@latin/LC_MESSAGES/powerdevil.mo
 share/locale/sr@latin/LC_MESSAGES/powerdevilactivitiesconfig.mo
 share/locale/sr@latin/LC_MESSAGES/powerdevilglobalconfig.mo
 share/locale/sr@latin/LC_MESSAGES/powerdevilprofilesconfig.mo
-share/locale/sv/LC_MESSAGES/libpowerdevilcommonconfig.mo
-share/locale/sv/LC_MESSAGES/powerdevil.mo
-share/locale/sv/LC_MESSAGES/powerdevilactivitiesconfig.mo
-share/locale/sv/LC_MESSAGES/powerdevilglobalconfig.mo
-share/locale/sv/LC_MESSAGES/powerdevilprofilesconfig.mo
 share/locale/te/LC_MESSAGES/powerdevil.mo
 share/locale/tg/LC_MESSAGES/libpowerdevilcommonconfig.mo
 share/locale/tg/LC_MESSAGES/powerdevil.mo

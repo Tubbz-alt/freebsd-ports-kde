@@ -34,8 +34,6 @@ share/doc/HTML/pt_BR/ksysguard/index.cache.bz2
 share/doc/HTML/pt_BR/ksysguard/index.docbook
 share/doc/HTML/ru/ksysguard/index.cache.bz2
 share/doc/HTML/ru/ksysguard/index.docbook
-share/doc/HTML/sv/ksysguard/index.cache.bz2
-share/doc/HTML/sv/ksysguard/index.docbook
 share/doc/HTML/uk/ksysguard/index.cache.bz2
 share/doc/HTML/uk/ksysguard/index.docbook
 share/icons/hicolor/16x16/apps/computer.png
@@ -55,6 +53,7 @@ share/kxmlgui5/ksysguard/ksysguardui.rc
 share/locale/af/LC_MESSAGES/ksysguard.mo
 share/locale/ar/LC_MESSAGES/ksysguard.mo
 share/locale/ast/LC_MESSAGES/ksysguard.mo
+share/locale/az/LC_MESSAGES/ksysguard.mo
 share/locale/be/LC_MESSAGES/ksysguard.mo
 share/locale/be@latin/LC_MESSAGES/ksysguard.mo
 share/locale/bg/LC_MESSAGES/ksysguard.mo
@@ -66,6 +65,8 @@ share/locale/ca/LC_MESSAGES/ksysguard.mo
 share/locale/ca/LC_MESSAGES/ksysguard_plugins_global.mo
 share/locale/ca/LC_MESSAGES/ksysguard_plugins_process.mo
 share/locale/ca@valencia/LC_MESSAGES/ksysguard.mo
+share/locale/ca@valencia/LC_MESSAGES/ksysguard_plugins_global.mo
+share/locale/ca@valencia/LC_MESSAGES/ksysguard_plugins_process.mo
 share/locale/cs/LC_MESSAGES/ksysguard.mo
 share/locale/cs/LC_MESSAGES/ksysguard_plugins_global.mo
 share/locale/cs/LC_MESSAGES/ksysguard_plugins_process.mo
@@ -143,7 +144,11 @@ share/locale/pt_BR/LC_MESSAGES/ksysguard.mo
 share/locale/pt_BR/LC_MESSAGES/ksysguard_plugins_global.mo
 share/locale/pt_BR/LC_MESSAGES/ksysguard_plugins_process.mo
 share/locale/ro/LC_MESSAGES/ksysguard.mo
+share/locale/ro/LC_MESSAGES/ksysguard_plugins_global.mo
+share/locale/ro/LC_MESSAGES/ksysguard_plugins_process.mo
 share/locale/ru/LC_MESSAGES/ksysguard.mo
+share/locale/ru/LC_MESSAGES/ksysguard_plugins_global.mo
+share/locale/ru/LC_MESSAGES/ksysguard_plugins_process.mo
 share/locale/se/LC_MESSAGES/ksysguard.mo
 share/locale/si/LC_MESSAGES/ksysguard.mo
 share/locale/sk/LC_MESSAGES/ksysguard.mo
@@ -157,9 +162,6 @@ share/locale/sr/LC_MESSAGES/ksysguard.mo
 share/locale/sr@ijekavian/LC_MESSAGES/ksysguard.mo
 share/locale/sr@ijekavianlatin/LC_MESSAGES/ksysguard.mo
 share/locale/sr@latin/LC_MESSAGES/ksysguard.mo
-share/locale/sv/LC_MESSAGES/ksysguard.mo
-share/locale/sv/LC_MESSAGES/ksysguard_plugins_global.mo
-share/locale/sv/LC_MESSAGES/ksysguard_plugins_process.mo
 share/locale/ta/LC_MESSAGES/ksysguard.mo
 share/locale/te/LC_MESSAGES/ksysguard.mo
 share/locale/tg/LC_MESSAGES/ksysguard.mo
