@@ -221,7 +221,7 @@ _USE_PLASMA_ALL=	activitymanagerd breeze breeze-gtk \
 			kscreenlocker ksshaskpass ksysguard kwallet-pam \
 			kwayland-integration kwin kwrited libkscreen \
 			libksysguard milou oxygen plasma-browser-integration \
-			plasma-desktop plasma-integration plasma-pa \
+			plasma-desktop plasma-disks plasma-integration plasma-pa \
 			plasma-sdk plasma-workspace plasma-workspace-wallpapers \
 			polkit-kde-agent-1 powerdevil systemsettings
 
@@ -571,6 +571,9 @@ kde-plasma-browser-integration_PATH=	${KDE_PREFIX}/bin/plasma-browser-integratio
 
 kde-plasma-desktop_PORT=	x11/plasma5-plasma-desktop
 kde-plasma-desktop_PATH=	${KDE_PREFIX}/bin/krdb
+
+kde-plasma-disks_PORT=		sysutils/plasma5-plasma-disks
+kde-plasma-disks_PATH=		${KDE_PREFIX}/lib/libexec/kauth/kded-smart-helper
 
 kde-plasma-integration_PORT=	x11/plasma5-plasma-integration
 kde-plasma-integration_PATH=	${QT_PLUGINDIR}/platformthemes/KDEPlasmaPlatformTheme.so
