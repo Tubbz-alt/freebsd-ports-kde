@@ -18,6 +18,7 @@ bin/ctest
 %%MANPAGES%%man/man7/cmake-modules.7.gz
 %%MANPAGES%%man/man7/cmake-packages.7.gz
 %%MANPAGES%%man/man7/cmake-policies.7.gz
+%%MANPAGES%%man/man7/cmake-presets.7.gz
 %%MANPAGES%%man/man7/cmake-properties.7.gz
 %%MANPAGES%%man/man7/cmake-qt.7.gz
 %%MANPAGES%%man/man7/cmake-server.7.gz
@@ -266,6 +267,7 @@ share/bash-completion/completions/ctest
 %%DATADIR%%/Help/manual/cmake-modules.7.rst
 %%DATADIR%%/Help/manual/cmake-packages.7.rst
 %%DATADIR%%/Help/manual/cmake-policies.7.rst
+%%DATADIR%%/Help/manual/cmake-presets.7.rst
 %%DATADIR%%/Help/manual/cmake-properties.7.rst
 %%DATADIR%%/Help/manual/cmake-qt.7.rst
 %%DATADIR%%/Help/manual/cmake-server.7.rst
@@ -276,6 +278,7 @@ share/bash-completion/completions/ctest
 %%DATADIR%%/Help/manual/cpack.1.rst
 %%DATADIR%%/Help/manual/ctest.1.rst
 %%DATADIR%%/Help/manual/presets/example.json
+%%DATADIR%%/Help/manual/presets/schema.json
 %%DATADIR%%/Help/module/AddFileDependencies.rst
 %%DATADIR%%/Help/module/AndroidTestUtilities.rst
 %%DATADIR%%/Help/module/BundleUtilities.rst
@@ -1169,7 +1172,7 @@ share/bash-completion/completions/ctest
 %%DATADIR%%/Help/release/3.4.rst
 %%DATADIR%%/Help/release/3.5.rst
 %%DATADIR%%/Help/release/3.6.rst
-%%DATADIR%%/Help/release/%%PYTHON_VER%%.rst
+%%DATADIR%%/Help/release/3.7.rst
 %%DATADIR%%/Help/release/3.8.rst
 %%DATADIR%%/Help/release/3.9.rst
 %%DATADIR%%/Help/release/dev.txt
@@ -2413,6 +2416,9 @@ share/bash-completion/completions/ctest
 %%DATADIR%%/Modules/Internal/CPack/NSIS.InstallOptions.ini.in
 %%DATADIR%%/Modules/Internal/CPack/NSIS.template.in
 %%DATADIR%%/Modules/Internal/CPack/WIX.template.in
+%%DATADIR%%/Modules/Internal/CheckCompilerFlag.cmake
+%%DATADIR%%/Modules/Internal/CheckSourceCompiles.cmake
+%%DATADIR%%/Modules/Internal/CheckSourceRuns.cmake
 %%DATADIR%%/Modules/Internal/FeatureTesting.cmake
 %%DATADIR%%/Modules/KDE3Macros.cmake
 %%DATADIR%%/Modules/MacOSXBundleInfo.plist.in
