@@ -17,6 +17,7 @@
     SUBDIR += HeroesOfMightAndMagic
     SUBDIR += KnightCap
     SUBDIR += NBlood
+    SUBDIR += OpenDiablo2
     SUBDIR += OpenTomb
     SUBDIR += abbayedesmorts
     SUBDIR += abe
@@ -676,6 +677,7 @@
     SUBDIR += openbor3979
     SUBDIR += openbor4432
     SUBDIR += openbubbles
+    SUBDIR += openbve
     SUBDIR += opencity
     SUBDIR += openclaw
     SUBDIR += openclonk
