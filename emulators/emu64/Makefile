@@ -12,7 +12,7 @@ COMMENT=	Commodore 64 emulator
 LICENSE=	GPLv2
 LICENSE_FILE=	${WRKSRC}/LICENSE
 
-LIB_DEPENDS=	libquazip5.so:archivers/quazip \
+LIB_DEPENDS=	libquazip1-qt5.so:archivers/quazip \
 		libpng.so:graphics/png \
 		libavcodec.so:multimedia/ffmpeg
 

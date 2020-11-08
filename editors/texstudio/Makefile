@@ -15,7 +15,7 @@ BROKEN_armv6=	fails to compile: error: no member named mc_eip in __mcontext
 LIB_DEPENDS=	libhunspell-1.7.so:textproc/hunspell \
 		libpoppler.so:graphics/poppler \
 		libpoppler-qt5.so:graphics/poppler-qt5 \
-		libquazip5.so:archivers/quazip
+		libquazip1-qt5.so:archivers/quazip
 
 USES=		compiler:c++11-lang desktop-file-utils dos2unix \
 		ghostscript:run gl pkgconfig qmake qt:5 xorg
