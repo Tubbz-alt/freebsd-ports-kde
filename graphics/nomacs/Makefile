@@ -5,6 +5,9 @@ PORTVERSION=	3.16
 DISTVERSIONSUFFIX=	.224
 CATEGORIES=	graphics
 
+PATCH_SITES=	https://github.com/nomacs/nomacs/commit/
+PATCHFILES=	8c44e10ae48a88ed2ea885f432c65a0859013011.patch:-p1
+
 MAINTAINER=	vidar@karlsen.tech
 COMMENT=	Small, fast, and free image viewer
 
