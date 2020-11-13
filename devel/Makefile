@@ -4207,6 +4207,7 @@
     SUBDIR += py-botocore
     SUBDIR += py-bsd
     SUBDIR += py-btest
+    SUBDIR += py-build
     SUBDIR += py-buildbot
     SUBDIR += py-buildbot-console-view
     SUBDIR += py-buildbot-grid-view
@@ -4347,6 +4348,7 @@
     SUBDIR += py-distlib
     SUBDIR += py-distorm
     SUBDIR += py-distributed
+    SUBDIR += py-dj31-django-rq
     SUBDIR += py-django-rq
     SUBDIR += py-docker-py
     SUBDIR += py-dockerpty
@@ -4480,6 +4482,7 @@
     SUBDIR += py-gyp
     SUBDIR += py-hash_ring
     SUBDIR += py-heapdict
+    SUBDIR += py-hg-evolve
     SUBDIR += py-hglib
     SUBDIR += py-hgtools
     SUBDIR += py-holidays
@@ -4619,6 +4622,7 @@
     SUBDIR += py-marrow.util
     SUBDIR += py-marshmallow
     SUBDIR += py-matrix-angular-sdk
+    SUBDIR += py-maturin
     SUBDIR += py-mccabe
     SUBDIR += py-mdv
     SUBDIR += py-medikit
@@ -5860,6 +5864,7 @@
     SUBDIR += rubygem-blockenspiel
     SUBDIR += rubygem-bones
     SUBDIR += rubygem-bootsnap
+    SUBDIR += rubygem-bootsnap14
     SUBDIR += rubygem-bootstrap_form
     SUBDIR += rubygem-bson
     SUBDIR += rubygem-buftok
@@ -6016,6 +6021,7 @@
     SUBDIR += rubygem-ffi-win32-extensions
     SUBDIR += rubygem-ffi-yajl
     SUBDIR += rubygem-ffi110
+    SUBDIR += rubygem-fiber-local
     SUBDIR += rubygem-file-tail
     SUBDIR += rubygem-filesize
     SUBDIR += rubygem-fileutils
@@ -6825,6 +6831,7 @@
     SUBDIR += xa65
     SUBDIR += xbyak
     SUBDIR += xc3sprog
+    SUBDIR += xcscope.el
     SUBDIR += xdg-user-dirs
     SUBDIR += xdg-utils
     SUBDIR += xdgpaths
